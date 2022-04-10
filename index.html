@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Super CIDR</title>
+</head>
+<body>
+    <header>
+        <h1>Convert CIDR notation to a range of IP addresses</h1>
+    </header>
+    <section id="inputs">
+        <input id="input-ip" type="text" placeholder="192.168.0.1">
+        <input id="input-cidr" type="text" placeholder="28">
+
+        <button id="submit-btn">Submit</button>
+        <button id="reset-btn">Reset</button>
+    </section>
+    <section id="outputs">
+        <p id="output-error"></p>
+        <p id="output-ip-range"></p>
+        <p id="output-ip-list"></p>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
